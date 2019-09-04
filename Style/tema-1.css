@@ -1,0 +1,144 @@
+body {
+    background-color:rgb(225, 248, 236);
+    color: darkblue;
+    font-family: 'Traditional Arabic', 'Calisto MT', 'Comic Sans MS';
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+a:active{
+    color: red
+}
+a:hover{
+    color: rgb(29, 4, 61)
+}
+a:visited{
+    color: rgb(32, 2, 102)
+}
+.container {
+    padding: 10px 0;
+    background-color: rgb(201, 247, 231);
+    width: 90%;
+    overflow: auto;
+    margin: 10px auto;
+    text-align: justify;
+}
+.container h2{
+    padding: 10px 0;
+    background-color: rgb(201, 247, 231);
+    width: 90%;
+    overflow: auto;
+    margin: 10px auto;
+}
+.container p{
+    padding: 10px 0;
+    background-color: rgb(201, 247, 231);
+    width: 90%;
+    overflow: auto;
+    margin: 10px auto;
+}
+/* Debug Aid: BEGIN */
+.bg-cadet {
+    background-color: rgb(173, 247, 250);
+}
+/* Debug Aid: END*/
+.logo {
+    text-align: center;
+}
+.menu-primer ul {
+    background-color: grey;
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0, 0, 0, 0.2),
+        0 6px 10px 0  rgba(0, 0, 0, 0.14),
+        0 1px 18px 0  rgba(0, 0, 0, 0.12);
+}
+.menu-primer li {
+    display: inline-block;
+}
+.menu-primer a{
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px 10px;
+    letter-spacing: 1px;
+}
+.menu-primer a:hover {
+    background-color: aquamarine;
+    color: crimson;
+}
+.menu-primer .active {
+    background-color: rgb(189, 250, 189);
+    color: rgb(191, 191, 253);
+    cursor: default;
+}
+.jumbotron {
+    background-color: rgb(147, 248, 214);
+    border: solid 2px rgb(83, 189, 130);
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.jumbotron h1 {
+    margin: 20px 40px;
+    font-size: 24px;
+}
+.jumbotron h3 {
+    margin: 20px 40px;
+    font-size: 28px;
+}
+.copyright p {
+    font-size: 12px;
+    color: navy;
+}
+/* Footer Box: BEGIN */
+.container-full {
+    background-color: rgb(95, 156, 161)
+}
+.footer-box {
+    width: 33.3%;
+    float: left;
+}
+.footer-box ul {
+    padding: 0;
+}
+.footer-box li{
+    padding: 2px 0px;
+}
+.footer-box img {
+    vertical-align: middle;
+}
+.footer-box h4{
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+/* Footer Box: END */
+/* Box: BEGIN */
+.box2-left{
+    width: 100%;
+    float: left;
+}
+.box2-right{
+    width: 100%;
+    float: right;
+}
+.box-heading {
+    border: solid 1px rgb(186, 201, 158);
+    background-color: rgb(167, 247, 167);
+    border-radius: 5px 5px 0 0;
+    padding: 15px 20px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    margin: 0px;
+}
+.box-content {
+    border: solid 1px rgb(81, 184, 99);
+    border-top: 0;
+    margin: 0;
+    padding: 5px 0px;
+}
+.box-fixed {
+    height: 50px;
+}
+/* Box: END */
